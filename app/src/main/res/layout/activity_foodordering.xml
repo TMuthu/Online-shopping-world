@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muthukumart.onlineshoppingworld.foodordering"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    >
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical" >
+    <TextView
+        android:layout_width="490dp"
+        android:layout_height="50dp"
+        android:id="@+id/food"
+        android:text="Food Ordering Sites"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+     <ImageButton
+         android:id="@+id/imageButton"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+         android:layout_below="@id/food"
+         app:srcCompat="@drawable/foodpanda"
+         />
+
+     <ImageButton
+         android:id="@+id/ib8"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_toRightOf="@id/imageButton"
+         android:layout_marginStart="50dp"
+         app:srcCompat="@drawable/foodrool"
+         android:layout_below="@id/food"/>
+
+     <ImageButton
+        android:id="@+id/ib9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imageButton"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/gloriafood" />
+
+    <ImageButton
+        android:id="@+id/ib10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/ib9"
+        android:layout_below="@id/ib8"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/zomato"/>
+
+    <ImageButton
+        android:id="@+id/ib11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/ib9"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/chownow" />
+
+     <ImageButton
+         android:id="@+id/ib12"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_toRightOf="@id/ib11"
+         android:layout_below="@id/ib10"
+         android:layout_marginStart="50dp"
+         android:layout_marginTop="40dp"
+         app:srcCompat="@drawable/doordash" />
+
+
+    <ImageButton
+        android:id="@+id/ib13"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ib11"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/hotels" />
+
+
+     <ImageButton
+         android:id="@+id/ib14"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_toRightOf="@id/ib13"
+         android:layout_below="@id/ib12"
+         android:layout_marginTop="40dp"
+         android:layout_marginStart="50dp"
+         app:srcCompat="@drawable/swiggy"
+          />
+     <ImageButton
+         android:id="@+id/ib15"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_below="@id/ib13"
+         android:layout_marginTop="40dp"
+         android:layout_marginStart="20dp"
+         app:srcCompat="@drawable/orderup"
+        />
+     <ImageButton
+         android:id="@+id/ib16"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_toRightOf="@id/ib15"
+         android:layout_below="@id/ib14"
+         android:layout_marginStart="50dp"
+         android:layout_marginTop="40dp"
+         app:srcCompat="@drawable/ordersense"
+        />
+     <ImageButton
+         android:id="@+id/ib17"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:layout_below="@id/ib15"
+         android:layout_marginTop="40dp"
+         android:layout_marginStart="20dp"
+         app:srcCompat="@drawable/seamless"
+        />
+    </RelativeLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>
